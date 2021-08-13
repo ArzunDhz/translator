@@ -1,0 +1,42 @@
+
+
+  <%- include("partials/header") %>
+
+
+  <h1>English to Nepali Converter</h1>
+
+
+  <form action="/query" method="POST">
+
+
+    
+    <input type="text" name= "query"class="form__input" id="name" placeholder="Text to convert" required="" />
+  
+    
+    <button class="submitBtn btn btn-outline-danger" type="submit">convert</button>
+    
+    </form>
+
+
+
+
+<div class="converted-text">
+
+
+  <p>  <%= Fdata  %> </p>
+
+
+
+</div>
+
+
+
+
+
+  
+
+    
+
+  <%- include("partials/footer") %>
+
+  
